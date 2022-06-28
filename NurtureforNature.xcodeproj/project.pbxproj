@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43AA8B0F286B8BD6002E2504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AA8B0E286B8BD6002E2504 /* AppDelegate.swift */; };
+		43AA8B11286B8BD6002E2504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AA8B10286B8BD6002E2504 /* SceneDelegate.swift */; };
+		43AA8B13286B8BD6002E2504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AA8B12286B8BD6002E2504 /* ViewController.swift */; };
+		43AA8B16286B8BD6002E2504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AA8B14286B8BD6002E2504 /* Main.storyboard */; };
+		43AA8B19286B8BD6002E2504 /* NurtureforNature.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43AA8B17286B8BD6002E2504 /* NurtureforNature.xcdatamodeld */; };
+		43AA8B1B286B8BD8002E2504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AA8B1A286B8BD8002E2504 /* Assets.xcassets */; };
+		43AA8B1E286B8BD8002E2504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AA8B1C286B8BD8002E2504 /* LaunchScreen.storyboard */; };
+		43AA8B29286B8BD8002E2504 /* NurtureforNatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AA8B28286B8BD8002E2504 /* NurtureforNatureTests.swift */; };
+		43AA8B33286B8BD8002E2504 /* NurtureforNatureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AA8B32286B8BD8002E2504 /* NurtureforNatureUITests.swift */; };
+		43AA8B35286B8BD8002E2504 /* NurtureforNatureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AA8B34286B8BD8002E2504 /* NurtureforNatureUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43AA8B25286B8BD8002E2504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43AA8B03286B8BD6002E2504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AA8B0A286B8BD6002E2504;
+			remoteInfo = NurtureforNature;
+		};
+		43AA8B2F286B8BD8002E2504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43AA8B03286B8BD6002E2504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AA8B0A286B8BD6002E2504;
+			remoteInfo = NurtureforNature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43AA8B0B286B8BD6002E2504 /* NurtureforNature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NurtureforNature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AA8B0E286B8BD6002E2504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43AA8B10286B8BD6002E2504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		43AA8B12286B8BD6002E2504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43AA8B15286B8BD6002E2504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43AA8B18286B8BD6002E2504 /* NurtureforNature.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NurtureforNature.xcdatamodel; sourceTree = "<group>"; };
+		43AA8B1A286B8BD8002E2504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43AA8B1D286B8BD8002E2504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43AA8B1F286B8BD8002E2504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43AA8B24286B8BD8002E2504 /* NurtureforNatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurtureforNatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AA8B28286B8BD8002E2504 /* NurtureforNatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurtureforNatureTests.swift; sourceTree = "<group>"; };
+		43AA8B2E286B8BD8002E2504 /* NurtureforNatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurtureforNatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AA8B32286B8BD8002E2504 /* NurtureforNatureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurtureforNatureUITests.swift; sourceTree = "<group>"; };
+		43AA8B34286B8BD8002E2504 /* NurtureforNatureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurtureforNatureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43AA8B08286B8BD6002E2504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AA8B21286B8BD8002E2504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AA8B2B286B8BD8002E2504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43AA8B02286B8BD6002E2504 = {
+			isa = PBXGroup;
+			children = (
+				43AA8B0D286B8BD6002E2504 /* NurtureforNature */,
+				43AA8B27286B8BD8002E2504 /* NurtureforNatureTests */,
+				43AA8B31286B8BD8002E2504 /* NurtureforNatureUITests */,
+				43AA8B0C286B8BD6002E2504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43AA8B0C286B8BD6002E2504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43AA8B0B286B8BD6002E2504 /* NurtureforNature.app */,
+				43AA8B24286B8BD8002E2504 /* NurtureforNatureTests.xctest */,
+				43AA8B2E286B8BD8002E2504 /* NurtureforNatureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43AA8B0D286B8BD6002E2504 /* NurtureforNature */ = {
+			isa = PBXGroup;
+			children = (
+				43AA8B0E286B8BD6002E2504 /* AppDelegate.swift */,
+				43AA8B10286B8BD6002E2504 /* SceneDelegate.swift */,
+				43AA8B12286B8BD6002E2504 /* ViewController.swift */,
+				43AA8B14286B8BD6002E2504 /* Main.storyboard */,
+				43AA8B1A286B8BD8002E2504 /* Assets.xcassets */,
+				43AA8B1C286B8BD8002E2504 /* LaunchScreen.storyboard */,
+				43AA8B1F286B8BD8002E2504 /* Info.plist */,
+				43AA8B17286B8BD6002E2504 /* NurtureforNature.xcdatamodeld */,
+			);
+			path = NurtureforNature;
+			sourceTree = "<group>";
+		};
+		43AA8B27286B8BD8002E2504 /* NurtureforNatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				43AA8B28286B8BD8002E2504 /* NurtureforNatureTests.swift */,
+			);
+			path = NurtureforNatureTests;
+			sourceTree = "<group>";
+		};
+		43AA8B31286B8BD8002E2504 /* NurtureforNatureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43AA8B32286B8BD8002E2504 /* NurtureforNatureUITests.swift */,
+				43AA8B34286B8BD8002E2504 /* NurtureforNatureUITestsLaunchTests.swift */,
+			);
+			path = NurtureforNatureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43AA8B0A286B8BD6002E2504 /* NurtureforNature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AA8B38286B8BD8002E2504 /* Build configuration list for PBXNativeTarget "NurtureforNature" */;
+			buildPhases = (
+				43AA8B07286B8BD6002E2504 /* Sources */,
+				43AA8B08286B8BD6002E2504 /* Frameworks */,
+				43AA8B09286B8BD6002E2504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NurtureforNature;
+			productName = NurtureforNature;
+			productReference = 43AA8B0B286B8BD6002E2504 /* NurtureforNature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43AA8B23286B8BD8002E2504 /* NurtureforNatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AA8B3B286B8BD8002E2504 /* Build configuration list for PBXNativeTarget "NurtureforNatureTests" */;
+			buildPhases = (
+				43AA8B20286B8BD8002E2504 /* Sources */,
+				43AA8B21286B8BD8002E2504 /* Frameworks */,
+				43AA8B22286B8BD8002E2504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43AA8B26286B8BD8002E2504 /* PBXTargetDependency */,
+			);
+			name = NurtureforNatureTests;
+			productName = NurtureforNatureTests;
+			productReference = 43AA8B24286B8BD8002E2504 /* NurtureforNatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43AA8B2D286B8BD8002E2504 /* NurtureforNatureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AA8B3E286B8BD8002E2504 /* Build configuration list for PBXNativeTarget "NurtureforNatureUITests" */;
+			buildPhases = (
+				43AA8B2A286B8BD8002E2504 /* Sources */,
+				43AA8B2B286B8BD8002E2504 /* Frameworks */,
+				43AA8B2C286B8BD8002E2504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43AA8B30286B8BD8002E2504 /* PBXTargetDependency */,
+			);
+			name = NurtureforNatureUITests;
+			productName = NurtureforNatureUITests;
+			productReference = 43AA8B2E286B8BD8002E2504 /* NurtureforNatureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43AA8B03286B8BD6002E2504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					43AA8B0A286B8BD6002E2504 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					43AA8B23286B8BD8002E2504 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 43AA8B0A286B8BD6002E2504;
+					};
+					43AA8B2D286B8BD8002E2504 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 43AA8B0A286B8BD6002E2504;
+					};
+				};
+			};
+			buildConfigurationList = 43AA8B06286B8BD6002E2504 /* Build configuration list for PBXProject "NurtureforNature" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43AA8B02286B8BD6002E2504;
+			productRefGroup = 43AA8B0C286B8BD6002E2504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43AA8B0A286B8BD6002E2504 /* NurtureforNature */,
+				43AA8B23286B8BD8002E2504 /* NurtureforNatureTests */,
+				43AA8B2D286B8BD8002E2504 /* NurtureforNatureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43AA8B09286B8BD6002E2504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AA8B1E286B8BD8002E2504 /* LaunchScreen.storyboard in Resources */,
+				43AA8B1B286B8BD8002E2504 /* Assets.xcassets in Resources */,
+				43AA8B16286B8BD6002E2504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AA8B22286B8BD8002E2504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AA8B2C286B8BD8002E2504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43AA8B07286B8BD6002E2504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AA8B19286B8BD6002E2504 /* NurtureforNature.xcdatamodeld in Sources */,
+				43AA8B13286B8BD6002E2504 /* ViewController.swift in Sources */,
+				43AA8B0F286B8BD6002E2504 /* AppDelegate.swift in Sources */,
+				43AA8B11286B8BD6002E2504 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AA8B20286B8BD8002E2504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AA8B29286B8BD8002E2504 /* NurtureforNatureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AA8B2A286B8BD8002E2504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AA8B33286B8BD8002E2504 /* NurtureforNatureUITests.swift in Sources */,
+				43AA8B35286B8BD8002E2504 /* NurtureforNatureUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43AA8B26286B8BD8002E2504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43AA8B0A286B8BD6002E2504 /* NurtureforNature */;
+			targetProxy = 43AA8B25286B8BD8002E2504 /* PBXContainerItemProxy */;
+		};
+		43AA8B30286B8BD8002E2504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43AA8B0A286B8BD6002E2504 /* NurtureforNature */;
+			targetProxy = 43AA8B2F286B8BD8002E2504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43AA8B14286B8BD6002E2504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43AA8B15286B8BD6002E2504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43AA8B1C286B8BD8002E2504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43AA8B1D286B8BD8002E2504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43AA8B36286B8BD8002E2504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43AA8B37286B8BD8002E2504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43AA8B39286B8BD8002E2504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NurtureforNature/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.NurtureforNature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43AA8B3A286B8BD8002E2504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NurtureforNature/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.NurtureforNature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43AA8B3C286B8BD8002E2504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.NurtureforNatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NurtureforNature.app/NurtureforNature";
+			};
+			name = Debug;
+		};
+		43AA8B3D286B8BD8002E2504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.NurtureforNatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NurtureforNature.app/NurtureforNature";
+			};
+			name = Release;
+		};
+		43AA8B3F286B8BD8002E2504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.NurtureforNatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NurtureforNature;
+			};
+			name = Debug;
+		};
+		43AA8B40286B8BD8002E2504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.NurtureforNatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NurtureforNature;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43AA8B06286B8BD6002E2504 /* Build configuration list for PBXProject "NurtureforNature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AA8B36286B8BD8002E2504 /* Debug */,
+				43AA8B37286B8BD8002E2504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AA8B38286B8BD8002E2504 /* Build configuration list for PBXNativeTarget "NurtureforNature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AA8B39286B8BD8002E2504 /* Debug */,
+				43AA8B3A286B8BD8002E2504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AA8B3B286B8BD8002E2504 /* Build configuration list for PBXNativeTarget "NurtureforNatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AA8B3C286B8BD8002E2504 /* Debug */,
+				43AA8B3D286B8BD8002E2504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AA8B3E286B8BD8002E2504 /* Build configuration list for PBXNativeTarget "NurtureforNatureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AA8B3F286B8BD8002E2504 /* Debug */,
+				43AA8B40286B8BD8002E2504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43AA8B17286B8BD6002E2504 /* NurtureforNature.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43AA8B18286B8BD6002E2504 /* NurtureforNature.xcdatamodel */,
+			);
+			currentVersion = 43AA8B18286B8BD6002E2504 /* NurtureforNature.xcdatamodel */;
+			path = NurtureforNature.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43AA8B03286B8BD6002E2504 /* Project object */;
+}
