@@ -69,18 +69,6 @@
                                     <segue destination="lSm-cz-gXy" kind="presentation" modalPresentationStyle="fullScreen" id="qwb-a0-hlB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7x-Pb-tts">
-                                <rect key="frame" x="321" y="78" width="84" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.16913914680480957" green="0.430909663438797" blue="0.45801520347595215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Quiz">
-                                    <fontDescription key="titleFontDescription" name="Palatino-Bold" family="Palatino" pointSize="26"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="X7e-rE-HO1" kind="show" id="IeA-SD-bkb"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -138,7 +126,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="DIYs"/>
                                 <connections>
                                     <segue destination="lSm-cz-gXy" kind="show" id="bsa-yQ-KyB"/>
                                 </connections>
@@ -194,9 +182,9 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVT-PG-61H">
                                 <rect key="frame" x="54" y="340" width="307" height="399"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Steps:                                                              1) Drill five evenly spaced holes in the lid of the container for ventilation.
+                                <string key="text">Steps:                                                              1) Drill five evenly spaced holes in the lid of the container for ventilation.
 2)Cut a piece of nylon screen big enough to cover all of the air holes. Hot glue the screen to the underside of the container lid. 
-3)Stir the compost about once a week to aerate the mixture. Be sure to put the lid back on tightly to avoid attracting unwanted pests. When the compost is ready to use, you can add it to your outdoor compost pile or search for compost drop-off locations near you.</mutableString>
+3)Stir the compost about once a week to aerate the mixture. Be sure to put the lid back on tightly to avoid attracting unwanted pests. When the compost is ready to use, you can add it to your outdoor compost pile or search for compost drop-off locations near you.</string>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                                 <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -206,7 +194,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="DIYs"/>
                                 <connections>
                                     <segue destination="lSm-cz-gXy" kind="show" id="VMQ-es-gAg"/>
                                 </connections>
@@ -284,7 +272,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="DIYs"/>
                                 <connections>
                                     <segue destination="lSm-cz-gXy" kind="show" id="9KL-jH-pO4"/>
                                 </connections>
@@ -323,7 +311,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="DIYs"/>
                                 <connections>
                                     <segue destination="lSm-cz-gXy" kind="show" id="dIE-C1-yBh"/>
                                 </connections>
@@ -342,13 +330,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sr5-vI-edo">
                                 <rect key="frame" x="9" y="241" width="396" height="518"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Steps:                                                                                          1)Lay out the shirt and use scissors to sever the neck and sleeve portion from the body, cut off the ends of the sleeves to make ties, just as for the smaller toy above.                                                          2)Cut the fabric strips towards the other seam, creating loops of fabric like a fringe attached together along the uncut seam end of the shirt.
+                                <string key="text">Steps:                                                                                          1)Lay out the shirt and use scissors to sever the neck and sleeve portion from the body, cut off the ends of the sleeves to make ties, just as for the smaller toy above.                                                          2)Cut the fabric strips towards the other seam, creating loops of fabric like a fringe attached together along the uncut seam end of the shirt.
 3)Give the loops a gentle pull to curl the edges under, and then snip each loop from the seam and cut them into long strips.        
 4)Using a fabric sleeve strip, tie the bundle together a few inches from the end and double-knot to secure. 
 5)Divide the bundled strips into 3 equal sections and braid them tightly together, stopping a few inches from the end.
 6)Using another short fabric strip, tie and knot the ends of the braid. Trim.
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                                 <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -417,7 +405,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="DIYs"/>
                                 <connections>
                                     <segue destination="lSm-cz-gXy" kind="show" id="KS7-Np-Zev"/>
                                 </connections>
@@ -479,7 +467,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="DIYs"/>
                                 <connections>
                                     <segue destination="lSm-cz-gXy" kind="show" id="XNP-lE-LhU"/>
                                 </connections>
@@ -505,6 +493,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJh-tj-QvM">
                                 <rect key="frame" x="307" y="48" width="87" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2274509804" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home"/>
                                 <connections>
@@ -514,6 +503,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05g-Nc-lEl">
                                 <rect key="frame" x="20" y="749" width="66" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2274509804" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
@@ -625,6 +615,7 @@ Cg
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLS-qY-JG5">
                                 <rect key="frame" x="327" y="792" width="67" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2274509804" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Next"/>
                                 <connections>
@@ -634,6 +625,7 @@ Cg
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJC-01-D6a">
                                 <rect key="frame" x="329" y="60" width="73" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2274509804" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home"/>
                                 <connections>
@@ -655,7 +647,7 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPR-7N-aLA">
-                                <rect key="frame" x="-31" y="409" width="425" height="427"/>
+                                <rect key="frame" x="-23" y="380" width="425" height="427"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -696,6 +688,7 @@ Cg
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfP-2f-3Aw">
                                 <rect key="frame" x="329" y="20" width="78" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2274509804" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home"/>
                                 <connections>
@@ -705,6 +698,7 @@ Cg
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EjJ-h4-SmA">
                                 <rect key="frame" x="336" y="777" width="62" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2274509804" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Next"/>
                                 <connections>
@@ -714,6 +708,7 @@ Cg
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YsG-IB-TcI">
                                 <rect key="frame" x="22" y="777" width="75" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2274509804" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
@@ -977,6 +972,13 @@ Cg
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="Rvg-dw-MJm"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Try to buy less then ten of those products a week and" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQh-eZ-uCr">
+                                <rect key="frame" x="92" y="28" width="230" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
+                                <color key="textColor" red="0.2274509804" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q35-lb-0gx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1078,18 +1080,6 @@ Cg
                                     <action selector="bButton:" destination="Krc-zs-J71" eventType="touchUpInside" id="uTo-fg-j9V"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db4-P1-pKy">
-                                <rect key="frame" x="18" y="433" width="396" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.16913914680480957" green="0.430909663438797" blue="0.45801520347595215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="C) Impacts of climate change are distributed all over Earth">
-                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="13"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="cButton:" destination="Krc-zs-J71" eventType="touchUpInside" id="JfH-P7-krG"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdt-vJ-Xwi">
                                 <rect key="frame" x="249" y="735" width="87" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1138,6 +1128,18 @@ Cg
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db4-P1-pKy">
+                                <rect key="frame" x="103" y="427" width="191" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.16913914680480957" green="0.430909663438797" blue="0.45801520347595215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="C) All Over Earth">
+                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="cButton:" destination="Krc-zs-J71" eventType="touchUpInside" id="JfH-P7-krG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zSk-aY-Zbc"/>
                         <color key="backgroundColor" red="0.95639413595199585" green="0.9353519082069397" blue="0.83393234014511108" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1523,32 +1525,6 @@ Cg
                                     <action selector="bButton:" destination="itz-46-rCe" eventType="touchUpInside" id="KpC-fZ-tx6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCo-2I-CeO">
-                                <rect key="frame" x="35" y="741" width="80" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.16913914680480957" green="0.430909663438797" blue="0.45801520347595215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="DIYS">
-                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="24"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="doItYourselfButton:" destination="itz-46-rCe" eventType="touchUpInside" id="w5X-6g-F5e"/>
-                                    <segue destination="lSm-cz-gXy" kind="show" id="4tT-iz-hFs"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eof-Re-mOX">
-                                <rect key="frame" x="312" y="741" width="70" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.16913914680480957" green="0.430909663438797" blue="0.45801520347595215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Tips">
-                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="25"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="tips:" destination="itz-46-rCe" eventType="touchUpInside" id="zbd-6A-jcI"/>
-                                    <segue destination="8le-Iz-cLL" kind="show" id="uP8-vz-7eF"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8mQ-nf-hgS">
                                 <rect key="frame" x="40" y="520" width="347" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1574,14 +1550,13 @@ Cg
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="IeA-SD-bkb"/>
-        <segue reference="VMQ-es-gAg"/>
-        <segue reference="8DT-tu-E98"/>
-        <segue reference="Jqa-Zh-Adl"/>
+        <segue reference="qwb-a0-hlB"/>
+        <segue reference="rKO-tj-G8P"/>
+        <segue reference="yYb-96-48n"/>
         <segue reference="vqx-0h-y3e"/>
         <segue reference="ufi-lU-QSk"/>
         <segue reference="tI7-ah-G3c"/>
-        <segue reference="qhL-E7-PFY"/>
+        <segue reference="RKT-ib-sne"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Home Page Background" width="1080" height="1920"/>
