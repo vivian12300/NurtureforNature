@@ -17,6 +17,11 @@
 		43AA8B29286B8BD8002E2504 /* NurtureforNatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AA8B28286B8BD8002E2504 /* NurtureforNatureTests.swift */; };
 		43AA8B33286B8BD8002E2504 /* NurtureforNatureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AA8B32286B8BD8002E2504 /* NurtureforNatureUITests.swift */; };
 		43AA8B35286B8BD8002E2504 /* NurtureforNatureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AA8B34286B8BD8002E2504 /* NurtureforNatureUITestsLaunchTests.swift */; };
+		7073B0C9286D214C0060C6AB /* ViewController1Q.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073B0C8286D214C0060C6AB /* ViewController1Q.swift */; };
+		7073B0CB286D21750060C6AB /* ViewController2Q.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073B0CA286D21750060C6AB /* ViewController2Q.swift */; };
+		7073B0CD286D24250060C6AB /* ViewController3Q.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073B0CC286D24250060C6AB /* ViewController3Q.swift */; };
+		7073B0CF286D24410060C6AB /* ViewController4Q.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073B0CE286D24410060C6AB /* ViewController4Q.swift */; };
+		7073B0D1286D28DB0060C6AB /* ViewController5Q.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073B0D0286D28DB0060C6AB /* ViewController5Q.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		43AA8B2E286B8BD8002E2504 /* NurtureforNatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurtureforNatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43AA8B32286B8BD8002E2504 /* NurtureforNatureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurtureforNatureUITests.swift; sourceTree = "<group>"; };
 		43AA8B34286B8BD8002E2504 /* NurtureforNatureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurtureforNatureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7073B0C8286D214C0060C6AB /* ViewController1Q.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1Q.swift; sourceTree = "<group>"; };
+		7073B0CA286D21750060C6AB /* ViewController2Q.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2Q.swift; sourceTree = "<group>"; };
+		7073B0CC286D24250060C6AB /* ViewController3Q.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3Q.swift; sourceTree = "<group>"; };
+		7073B0CE286D24410060C6AB /* ViewController4Q.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4Q.swift; sourceTree = "<group>"; };
+		7073B0D0286D28DB0060C6AB /* ViewController5Q.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5Q.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +115,15 @@
 				43AA8B10286B8BD6002E2504 /* SceneDelegate.swift */,
 				43AA8B12286B8BD6002E2504 /* ViewController.swift */,
 				43AA8B14286B8BD6002E2504 /* Main.storyboard */,
+				7073B0D0286D28DB0060C6AB /* ViewController5Q.swift */,
 				43AA8B1A286B8BD8002E2504 /* Assets.xcassets */,
 				43AA8B1C286B8BD8002E2504 /* LaunchScreen.storyboard */,
 				43AA8B1F286B8BD8002E2504 /* Info.plist */,
 				43AA8B17286B8BD6002E2504 /* NurtureforNature.xcdatamodeld */,
+				7073B0C8286D214C0060C6AB /* ViewController1Q.swift */,
+				7073B0CA286D21750060C6AB /* ViewController2Q.swift */,
+				7073B0CC286D24250060C6AB /* ViewController3Q.swift */,
+				7073B0CE286D24410060C6AB /* ViewController4Q.swift */,
 			);
 			path = NurtureforNature;
 			sourceTree = "<group>";
@@ -262,7 +277,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				43AA8B19286B8BD6002E2504 /* NurtureforNature.xcdatamodeld in Sources */,
+				7073B0CD286D24250060C6AB /* ViewController3Q.swift in Sources */,
 				43AA8B13286B8BD6002E2504 /* ViewController.swift in Sources */,
+				7073B0C9286D214C0060C6AB /* ViewController1Q.swift in Sources */,
+				7073B0D1286D28DB0060C6AB /* ViewController5Q.swift in Sources */,
+				7073B0CB286D21750060C6AB /* ViewController2Q.swift in Sources */,
+				7073B0CF286D24410060C6AB /* ViewController4Q.swift in Sources */,
 				43AA8B0F286B8BD6002E2504 /* AppDelegate.swift in Sources */,
 				43AA8B11286B8BD6002E2504 /* SceneDelegate.swift in Sources */,
 			);
