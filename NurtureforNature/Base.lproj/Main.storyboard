@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NurtureforNature" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="NurtureforNature" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,9 +94,9 @@
         <!--Ycompost View Controller-->
         <scene sceneID="7Gy-Wn-U8t">
             <objects>
-                <viewController id="nys-Tz-VTd" customClass="DIYcompostViewController" customModule="NurtureforNature" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="nys-Tz-VTd" customClass="DIYcompostViewController" customModule="NurtureforNature" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aPX-5L-AWj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="vc7-i0-7UG">
@@ -134,7 +134,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5R8-61-4bq">
-                                <rect key="frame" x="306" y="113" width="77" height="31"/>
+                                <rect key="frame" x="306" y="106" width="88" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -156,18 +156,19 @@
         <!--View Controller-->
         <scene sceneID="oKX-8j-bqY">
             <objects>
-                <viewController id="wlJ-9e-8fS" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="wlJ-9e-8fS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kyb-eU-JQ5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="a3k-nz-jW6">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Geo-J6-eac">
-                                <rect key="frame" x="69" y="220" width="276" height="526"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Geo-J6-eac">
+                                <rect key="frame" x="59" y="204" width="296" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Materials:                                 Container with lid, Drill, Nylon mesh screen, Hot glue gun, Dirt, Kitchen scraps, Shredded newspapers   </string>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                                 <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -179,18 +180,8 @@
                                 <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5R2-25-PQr">
-                                <rect key="frame" x="308" y="5" width="78" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
-                                <connections>
-                                    <segue destination="lSm-cz-gXy" kind="show" id="VMQ-es-gAg"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwc-X9-CxZ">
-                                <rect key="frame" x="142" y="729" width="130" height="37"/>
+                                <rect key="frame" x="142" y="747" width="130" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -198,6 +189,26 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="nys-Tz-VTd" kind="show" id="wMy-ho-rvT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVT-PG-61H">
+                                <rect key="frame" x="54" y="340" width="307" height="399"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Steps:                                                              1) Drill five evenly spaced holes in the lid of the container for ventilation.
+2)Cut a piece of nylon screen big enough to cover all of the air holes. Hot glue the screen to the underside of the container lid. 
+3)Stir the compost about once a week to aerate the mixture. Be sure to put the lid back on tightly to avoid attracting unwanted pests. When the compost is ready to use, you can add it to your outdoor compost pile or search for compost drop-off locations near you.</mutableString>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5R2-25-PQr">
+                                <rect key="frame" x="311" y="114" width="83" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <connections>
+                                    <segue destination="lSm-cz-gXy" kind="show" id="VMQ-es-gAg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -213,13 +224,13 @@
         <!--View Controller-->
         <scene sceneID="fIv-dE-TWm">
             <objects>
-                <viewController id="4Pq-71-ezx" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="4Pq-71-ezx" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GGi-LO-Yc2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="HX8-9y-M0w">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eK3-UJ-gqZ">
@@ -229,15 +240,17 @@
                                 <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zj9-be-pR1">
-                                <rect key="frame" x="50" y="178" width="314" height="453"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zj9-be-pR1">
+                                <rect key="frame" x="42" y="192" width="331" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Materials:                                              Plastic Bottles, Acrylic Paint, Googly Eyes, Utility Knife, Plants, Glue
+</string>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                                 <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAm-zy-SJH">
-                                <rect key="frame" x="139" y="724" width="131" height="35"/>
+                                <rect key="frame" x="142" y="742" width="131" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -254,8 +267,20 @@
                                 <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dct-vE-fFn">
+                                <rect key="frame" x="27" y="295" width="360" height="385"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Steps:                                                                  1)Using a utility knife, carefully cut the plastic bottle in half or about 1/3 of the way from the bottom.
+2)Using a paint brush, paint the bottom portion of the bottle. Add multiple layers if necessary.                                                         4)Let dry.
+5)Glue a pair of googly eyes to the front.
+6)Fill the bottle with soil then add a plant.
+</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6H-AE-sCm">
-                                <rect key="frame" x="318" y="5" width="76" height="31"/>
+                                <rect key="frame" x="311" y="115" width="76" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -277,32 +302,26 @@
         <!--View Controller-->
         <scene sceneID="s9y-PQ-2zi">
             <objects>
-                <viewController id="qJc-fi-mt3" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="qJc-fi-mt3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pjl-sc-hiQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="ON0-up-m4D">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47X-gC-ymT">
-                                <rect key="frame" x="99" y="124" width="216" height="46"/>
+                                <rect key="frame" x="99" y="113" width="216" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="40"/>
                                 <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEO-47-kGR">
-                                <rect key="frame" x="123" y="324" width="169" height="195"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
-                                <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpJ-nB-Ha8">
-                                <rect key="frame" x="329" y="5" width="63" height="31"/>
+                                <rect key="frame" x="308" y="116" width="79" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home"/>
                                 <connections>
@@ -310,7 +329,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7o-Sc-4M4">
-                                <rect key="frame" x="141" y="723" width="128" height="36"/>
+                                <rect key="frame" x="143" y="767" width="128" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -320,6 +339,27 @@
                                     <segue destination="fS2-VY-fke" kind="show" id="XcR-Gt-7hL"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sr5-vI-edo">
+                                <rect key="frame" x="9" y="241" width="396" height="518"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Steps:                                                                                          1)Lay out the shirt and use scissors to sever the neck and sleeve portion from the body, cut off the ends of the sleeves to make ties, just as for the smaller toy above.                                                          2)Cut the fabric strips towards the other seam, creating loops of fabric like a fringe attached together along the uncut seam end of the shirt.
+3)Give the loops a gentle pull to curl the edges under, and then snip each loop from the seam and cut them into long strips.        
+4)Using a fabric sleeve strip, tie the bundle together a few inches from the end and double-knot to secure. 
+5)Divide the bundled strips into 3 equal sections and braid them tightly together, stopping a few inches from the end.
+6)Using another short fabric strip, tie and knot the ends of the braid. Trim.
+
+</mutableString>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Materials:                                                         2 t-shirts per toy, Scissors,Measuring tape or ruler " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEO-47-kGR">
+                                <rect key="frame" x="71" y="138" width="323" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GPg-Vx-ZLy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -333,9 +373,9 @@
         <!--View Controller-->
         <scene sceneID="bv0-YH-dYh">
             <objects>
-                <viewController id="sOZ-hl-5JU" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="sOZ-hl-5JU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D4u-H8-7RS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="qgE-ZD-kC2">
@@ -373,7 +413,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFp-Dr-sDF">
-                                <rect key="frame" x="308" y="92" width="75" height="31"/>
+                                <rect key="frame" x="308" y="92" width="86" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -395,9 +435,9 @@
         <!--View Controller-->
         <scene sceneID="Dgm-C0-Xh2">
             <objects>
-                <viewController id="fS2-VY-fke" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="fS2-VY-fke" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vBm-9Z-nm3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="Dc5-tc-V37">
@@ -435,7 +475,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9I-Qh-aEY">
-                                <rect key="frame" x="307" y="113" width="75" height="31"/>
+                                <rect key="frame" x="307" y="111" width="87" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -463,7 +503,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJh-tj-QvM">
-                                <rect key="frame" x="307" y="48" width="63" height="31"/>
+                                <rect key="frame" x="307" y="48" width="87" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home"/>
@@ -472,7 +512,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05g-Nc-lEl">
-                                <rect key="frame" x="20" y="749" width="56" height="31"/>
+                                <rect key="frame" x="20" y="749" width="66" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Back"/>
@@ -480,8 +520,22 @@
                                     <segue destination="Ouc-jf-f1J" kind="presentation" modalPresentationStyle="fullScreen" id="8DT-tu-E98"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4X-5N-aul">
+                                <rect key="frame" x="35" y="158" width="359" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Delete Your Emails!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="48" name="Courier-BoldOblique"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNe-lG-paq">
-                                <rect key="frame" x="0.0" y="382" width="394" height="394"/>
+                                <rect key="frame" x="0.0" y="347" width="394" height="394"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -517,20 +571,6 @@ Cg
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4X-5N-aul">
-                                <rect key="frame" x="35" y="158" width="359" height="216"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Delete Your Emails!">
-                                        <attributes>
-                                            <color key="NSColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="48" name="Courier-BoldOblique"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kaP-77-XNh"/>
                         <color key="backgroundColor" red="0.94509804249999996" green="0.92941176889999999" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -546,7 +586,7 @@ Cg
             <objects>
                 <viewController id="8le-Iz-cLL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KUw-e8-lr6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8o-iC-Mus">
@@ -592,7 +632,7 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJC-01-D6a">
-                                <rect key="frame" x="329" y="60" width="63" height="31"/>
+                                <rect key="frame" x="329" y="60" width="73" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home"/>
@@ -654,7 +694,7 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfP-2f-3Aw">
-                                <rect key="frame" x="329" y="20" width="63" height="63"/>
+                                <rect key="frame" x="329" y="20" width="78" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home"/>
@@ -663,7 +703,7 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EjJ-h4-SmA">
-                                <rect key="frame" x="336" y="777" width="54" height="31"/>
+                                <rect key="frame" x="336" y="777" width="62" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Next"/>
@@ -672,7 +712,7 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YsG-IB-TcI">
-                                <rect key="frame" x="22" y="777" width="56" height="31"/>
+                                <rect key="frame" x="22" y="777" width="75" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Back"/>
@@ -727,9 +767,9 @@ Cg
         <!--Yhome View Controller-->
         <scene sceneID="Oob-Ck-JuC">
             <objects>
-                <viewController id="lSm-cz-gXy" customClass="DIYhomeViewController" customModule="NurtureforNature" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="lSm-cz-gXy" customClass="DIYhomeViewController" customModule="NurtureforNature" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFill" id="GrS-OS-Wws">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DIYs to Reduce Waste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJg-mt-Z5L">
@@ -740,18 +780,18 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="oTB-GC-d0I">
-                                <rect key="frame" x="0.0" y="-27" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DIYs to Reduce Waste" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsV-T4-OaY">
-                                <rect key="frame" x="70" y="110" width="301" height="62"/>
+                                <rect key="frame" x="57" y="135" width="301" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
                                 <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNC-u0-Gir">
-                                <rect key="frame" x="113" y="423" width="189" height="51"/>
+                                <rect key="frame" x="113" y="445" width="189" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -762,7 +802,7 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZe-MU-ung">
-                                <rect key="frame" x="113" y="555" width="189" height="51"/>
+                                <rect key="frame" x="113" y="574" width="189" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -784,7 +824,7 @@ Cg
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ynd-hn-qZ2">
-                                <rect key="frame" x="55" y="167" width="331" height="270"/>
+                                <rect key="frame" x="55" y="180" width="331" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">One of the best and easiest ways to help climate change is to reduce your waste! Some of the easiest waste to reduce is food, plastic, and clothes. Here are three fun DIYS for you to try that allow you to reduce your waste by recycling!</string>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
@@ -792,14 +832,14 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CW-cE-zvw">
-                                <rect key="frame" x="313" y="-8" width="81" height="71"/>
+                                <rect key="frame" x="313" y="99" width="81" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="nWa-b1-He9"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="yGq-eP-KsB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -950,9 +990,9 @@ Cg
         <!--View Controller1Q-->
         <scene sceneID="2RQ-1K-pRZ">
             <objects>
-                <viewController id="X7e-rE-HO1" customClass="ViewController1Q" customModule="NurtureforNature" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="X7e-rE-HO1" customClass="ViewController1Q" customModule="NurtureforNature" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KCl-RJ-wd4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time for some trivia!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dS5-NB-ZK3">
@@ -1535,13 +1575,13 @@ Cg
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="IeA-SD-bkb"/>
-        <segue reference="4tT-iz-hFs"/>
-        <segue reference="rKO-tj-G8P"/>
-        <segue reference="uP8-vz-7eF"/>
-        <segue reference="XcR-Gt-7hL"/>
-        <segue reference="fpC-XM-kkT"/>
-        <segue reference="wMy-ho-rvT"/>
-        <segue reference="RKT-ib-sne"/>
+        <segue reference="VMQ-es-gAg"/>
+        <segue reference="8DT-tu-E98"/>
+        <segue reference="Jqa-Zh-Adl"/>
+        <segue reference="vqx-0h-y3e"/>
+        <segue reference="ufi-lU-QSk"/>
+        <segue reference="tI7-ah-G3c"/>
+        <segue reference="qhL-E7-PFY"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Home Page Background" width="1080" height="1920"/>
