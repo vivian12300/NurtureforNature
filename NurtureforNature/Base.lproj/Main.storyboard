@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -91,52 +91,58 @@
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="83.705357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Ycompost View Controller-->
         <scene sceneID="7Gy-Wn-U8t">
             <objects>
-                <viewController id="nys-Tz-VTd" sceneMemberID="viewController">
+                <viewController id="nys-Tz-VTd" customClass="DIYcompostViewController" customModule="NurtureforNature" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aPX-5L-AWj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story" translatesAutoresizingMaskIntoConstraints="NO" id="vc7-i0-7UG">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="887"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="vc7-i0-7UG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5R8-61-4bq">
-                                <rect key="frame" x="321" y="133" width="56" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qud-SF-ONE">
+                                <rect key="frame" x="46" y="194" width="322" height="309"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
-                                <connections>
-                                    <segue destination="lSm-cz-gXy" kind="presentation" modalPresentationStyle="fullScreen" id="7ar-ev-G3k"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qud-SF-ONE">
-                                <rect key="frame" x="170" y="266" width="44" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <string key="text">Every year 931 million tons of food is wasted. Meaning Americans waste about 30-40% of their food, which is about $1,866 wasted per year. When food is wasted, the natural resources used to produce the food, like energy, fuel, and water are also wasted. The UN has estimated a total of 8-10% of global carbon emission is linked to food waste. If we stopped wasting food, we would be able to save about 17 metric tons of CO2!</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GS0-Oc-fTA">
-                                <rect key="frame" x="170" y="501" width="29" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Obb-BG-fkw">
-                                <rect key="frame" x="87" y="342" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compostbin" translatesAutoresizingMaskIntoConstraints="NO" id="Obb-BG-fkw">
+                                <rect key="frame" x="86" y="525" width="242" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Indoor Compost Bin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0U7-NL-0PM">
-                                <rect key="frame" x="116" y="95" width="151" height="51"/>
+                                <rect key="frame" x="68" y="125" width="278" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DY8-hk-f0Y">
+                                <rect key="frame" x="137" y="751" width="141" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Instructions"/>
+                                <connections>
+                                    <segue destination="wlJ-9e-8fS" kind="show" id="f2i-ha-Mrh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5R8-61-4bq">
+                                <rect key="frame" x="306" y="113" width="77" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <connections>
+                                    <segue destination="lSm-cz-gXy" kind="show" id="bsa-yQ-KyB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YhP-Th-1xC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -148,51 +154,234 @@
             <point key="canvasLocation" x="-894.20289855072474" y="1947.9910714285713"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="oKX-8j-bqY">
+            <objects>
+                <viewController id="wlJ-9e-8fS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kyb-eU-JQ5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="a3k-nz-jW6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Geo-J6-eac">
+                                <rect key="frame" x="69" y="220" width="276" height="526"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaI-lY-lKv">
+                                <rect key="frame" x="99" y="137" width="216" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="40"/>
+                                <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5R2-25-PQr">
+                                <rect key="frame" x="308" y="5" width="78" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <connections>
+                                    <segue destination="lSm-cz-gXy" kind="show" id="VMQ-es-gAg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwc-X9-CxZ">
+                                <rect key="frame" x="142" y="729" width="130" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="nys-Tz-VTd" kind="show" id="wMy-ho-rvT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WCC-WK-77F"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gmr-6j-t6P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NfR-oN-lb5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-894.20289855072474" y="2635.7142857142858"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fIv-dE-TWm">
+            <objects>
+                <viewController id="4Pq-71-ezx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GGi-LO-Yc2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="HX8-9y-M0w">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eK3-UJ-gqZ">
+                                <rect key="frame" x="225" y="218" width="6" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="1"/>
+                                <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zj9-be-pR1">
+                                <rect key="frame" x="50" y="178" width="314" height="453"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAm-zy-SJH">
+                                <rect key="frame" x="139" y="724" width="131" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="sOZ-hl-5JU" kind="show" id="fpC-XM-kkT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWw-6W-Zd2">
+                                <rect key="frame" x="99" y="124" width="216" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="40"/>
+                                <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6H-AE-sCm">
+                                <rect key="frame" x="318" y="5" width="76" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <connections>
+                                    <segue destination="lSm-cz-gXy" kind="show" id="9KL-jH-pO4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7oe-2I-Z8n"/>
+                        <color key="backgroundColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OZN-jC-Q5p"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="njL-KV-Vh0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="105.79710144927537" y="2635.7142857142858"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s9y-PQ-2zi">
+            <objects>
+                <viewController id="qJc-fi-mt3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pjl-sc-hiQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="ON0-up-m4D">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47X-gC-ymT">
+                                <rect key="frame" x="99" y="124" width="216" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="40"/>
+                                <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEO-47-kGR">
+                                <rect key="frame" x="123" y="324" width="169" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpJ-nB-Ha8">
+                                <rect key="frame" x="329" y="5" width="63" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <connections>
+                                    <segue destination="lSm-cz-gXy" kind="show" id="dIE-C1-yBh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7o-Sc-4M4">
+                                <rect key="frame" x="141" y="723" width="128" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <connections>
+                                    <segue destination="fS2-VY-fke" kind="show" id="XcR-Gt-7hL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GPg-Vx-ZLy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8h2-Kk-xaW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="00O-Ix-tA5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1105.7971014492755" y="2635.7142857142858"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="bv0-YH-dYh">
             <objects>
                 <viewController id="sOZ-hl-5JU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D4u-H8-7RS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story" translatesAutoresizingMaskIntoConstraints="NO" id="qgE-ZD-kC2">
-                                <rect key="frame" x="-51" y="-24" width="465" height="897"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="qgE-ZD-kC2">
+                                <rect key="frame" x="0.0" y="-21" width="414" height="917"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFp-Dr-sDF">
-                                <rect key="frame" x="312" y="112" width="56" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plastic Bottle Plant Holder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYD-jS-PtN">
+                                <rect key="frame" x="41" y="131" width="353" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plantbottle" translatesAutoresizingMaskIntoConstraints="NO" id="Fbv-iZ-PI1">
+                                <rect key="frame" x="94" y="516" width="247" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2N-oL-UEa">
+                                <rect key="frame" x="52" y="160" width="331" height="369"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Every year, 380 million tons of plastic is produced per year, of that only 8.7% is recycled, and 30 million tons ends up being wasted. It is believed  that the average human uses about 167 water bottles per year, each bottle takes 450 years to decompose. To speed the process up plastic is burned. While being burned harmful gases are released causing toxins to enter our air. One example is black carbon which has been known to contribute to climate change and low air quality.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFh-TH-it2">
+                                <rect key="frame" x="140" y="746" width="154" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Intrustions"/>
                                 <connections>
-                                    <segue destination="lSm-cz-gXy" kind="presentation" modalPresentationStyle="fullScreen" id="iNu-eL-95H"/>
+                                    <segue destination="4Pq-71-ezx" kind="show" id="siC-OQ-Y81"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plastic Bottle Plant Holder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYD-jS-PtN">
-                                <rect key="frame" x="106" y="129" width="198" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFp-Dr-sDF">
+                                <rect key="frame" x="308" y="92" width="75" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRV-kL-GxR">
-                                <rect key="frame" x="186" y="510" width="29" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fbv-iZ-PI1">
-                                <rect key="frame" x="87" y="363" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2N-oL-UEa">
-                                <rect key="frame" x="186" y="224" width="44" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <connections>
+                                    <segue destination="lSm-cz-gXy" kind="show" id="KS7-Np-Zev"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Sjx-v9-0Wz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -208,47 +397,53 @@
             <objects>
                 <viewController id="fS2-VY-fke" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vBm-9Z-nm3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story" translatesAutoresizingMaskIntoConstraints="NO" id="Dc5-tc-V37">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="Dc5-tc-V37">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9I-Qh-aEY">
-                                <rect key="frame" x="324" y="133" width="56" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="T-Shirt Dog Toy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGg-DD-2i1">
+                                <rect key="frame" x="111" y="133" width="214" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dogtoyphot" translatesAutoresizingMaskIntoConstraints="NO" id="eV3-b8-E4T">
+                                <rect key="frame" x="64" y="543" width="287" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bi-Ej-uF1">
+                                <rect key="frame" x="54" y="176" width="328" height="383"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Every year the average american throws away 37 kilograms of clothes. Resulting in 92 million tons of textile waste per year. Of the 92 million tons, only 15.2% of it is recycled. Textiles take more than 200 years to decompose. While decomposing textiles produced methane gas, leach toxic chemicals, and dyes which enter our groundwater and soil. In 2013, Americans recycled 2.3 million tons of textile waste, which reduced greenhouse gases an amount equivalent to taking 1.2 million cars off the road for an entire year.</mutableString>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1K-sl-ENJ">
+                                <rect key="frame" x="125" y="738" width="165" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Intructions"/>
                                 <connections>
-                                    <segue destination="lSm-cz-gXy" kind="presentation" modalPresentationStyle="fullScreen" id="svZ-yJ-cK6"/>
+                                    <segue destination="qJc-fi-mt3" kind="show" id="0s5-GU-clR"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="T-Shirt Dog Toy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGg-DD-2i1">
-                                <rect key="frame" x="170" y="133" width="120" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9I-Qh-aEY">
+                                <rect key="frame" x="307" y="113" width="75" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BD-47-ADx">
-                                <rect key="frame" x="186" y="545" width="29" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eV3-b8-E4T">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bi-Ej-uF1">
-                                <rect key="frame" x="196" y="245" width="44" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <connections>
+                                    <segue destination="lSm-cz-gXy" kind="show" id="XNP-lE-LhU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uAn-Op-hI1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -529,12 +724,12 @@ Cg
             </objects>
             <point key="canvasLocation" x="3224.6376811594205" y="1331.9196428571429"/>
         </scene>
-        <!--Shomescreen View Controller-->
+        <!--Yhome View Controller-->
         <scene sceneID="Oob-Ck-JuC">
             <objects>
-                <viewController id="lSm-cz-gXy" customClass="DIYShomescreenViewController" customModule="NurtureforNature" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lSm-cz-gXy" customClass="DIYhomeViewController" customModule="NurtureforNature" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFill" id="GrS-OS-Wws">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DIYs to Reduce Waste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJg-mt-Z5L">
@@ -544,21 +739,22 @@ Cg
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story" translatesAutoresizingMaskIntoConstraints="NO" id="oTB-GC-d0I">
-                                <rect key="frame" x="0.0" y="27" width="414" height="842"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soft Green Simple International Earth Day Instagram Story-1" translatesAutoresizingMaskIntoConstraints="NO" id="oTB-GC-d0I">
+                                <rect key="frame" x="0.0" y="-27" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DIYs to Reduce Waste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsV-T4-OaY">
-                                <rect key="frame" x="122" y="54" width="170" height="62"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DIYs to Reduce Waste" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsV-T4-OaY">
+                                <rect key="frame" x="70" y="110" width="301" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                <color key="textColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNC-u0-Gir">
-                                <rect key="frame" x="144" y="382" width="153" height="112"/>
+                                <rect key="frame" x="113" y="423" width="189" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Indoor Compost Bin"/>
                                 <connections>
@@ -566,8 +762,10 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZe-MU-ung">
-                                <rect key="frame" x="124" y="485" width="193" height="112"/>
+                                <rect key="frame" x="113" y="555" width="189" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Plastic Bottle Plant Holder"/>
                                 <connections>
@@ -575,24 +773,29 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLI-M1-wvi">
-                                <rect key="frame" x="157" y="585" width="126" height="72"/>
+                                <rect key="frame" x="113" y="695" width="189" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22625550629999999" green="0.38830202819999998" blue="0.31855347750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.94799214600000004" green="0.92953008410000004" blue="0.84358537199999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="T-Shirt Dog Toy"/>
                                 <connections>
                                     <segue destination="fS2-VY-fke" kind="presentation" modalPresentationStyle="fullScreen" id="vqx-0h-y3e"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Text talking about food, clothes, and plastic waste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTV-JU-ndy">
-                                <rect key="frame" x="20" y="138" width="379" height="219"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ynd-hn-qZ2">
+                                <rect key="frame" x="55" y="167" width="331" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <string key="text">One of the best and easiest ways to help climate change is to reduce your waste! Some of the easiest waste to reduce is food, plastic, and clothes. Here are three fun DIYS for you to try that allow you to reduce your waste by recycling!</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CW-cE-zvw">
-                                <rect key="frame" x="327" y="101" width="87" height="66"/>
+                                <rect key="frame" x="313" y="-8" width="81" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.37367314099999999" green="0.57640033960000003" blue="0.60494828219999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home"/>
                                 <connections>
@@ -1258,18 +1461,24 @@ Cg
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="IeA-SD-bkb"/>
-        <segue reference="svZ-yJ-cK6"/>
-        <segue reference="8DT-tu-E98"/>
-        <segue reference="Jqa-Zh-Adl"/>
-        <segue reference="qhL-E7-PFY"/>
+        <segue reference="dIE-C1-yBh"/>
+        <segue reference="rKO-tj-G8P"/>
+        <segue reference="yYb-96-48n"/>
+        <segue reference="XcR-Gt-7hL"/>
+        <segue reference="fpC-XM-kkT"/>
+        <segue reference="wMy-ho-rvT"/>
+        <segue reference="nWa-b1-He9"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Home Page Background" width="1080" height="1920"/>
         <image name="Log Home Page" width="1080" height="1920"/>
         <image name="Log Page 2" width="1080" height="1920"/>
-        <image name="Soft Green Simple International Earth Day Instagram Story" width="1080" height="1920"/>
+        <image name="Soft Green Simple International Earth Day Instagram Story-1" width="1080" height="1920"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
+        <image name="compostbin" width="1092" height="1090"/>
+        <image name="dogtoyphot" width="735" height="980"/>
         <image name="earth" width="362" height="352"/>
+        <image name="plantbottle" width="474" height="570"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
