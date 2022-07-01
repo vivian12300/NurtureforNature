@@ -58,14 +58,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ew-DE-TVa">
-                                <rect key="frame" x="310" y="219" width="67" height="38"/>
+                                <rect key="frame" x="301" y="197" width="93" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.2274509804" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button">
-                                    <fontDescription key="titleFontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Quiz">
+                                    <fontDescription key="titleFontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="35"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="X7e-rE-HO1" kind="show" id="Aec-zr-7C6"/>
+                                    <segue destination="X7e-rE-HO1" kind="presentation" modalPresentationStyle="fullScreen" id="Aec-zr-7C6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -971,7 +972,7 @@ Cg
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="Rvg-dw-MJm"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Try to buy less then ten of those products a week and" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQh-eZ-uCr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Try to buy less than ten of those products a week and" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQh-eZ-uCr">
                                 <rect key="frame" x="92" y="28" width="230" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
@@ -1515,18 +1516,6 @@ Cg
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hG-0t-e7L">
-                                <rect key="frame" x="65" y="800" width="69" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.16913914680480957" green="0.430909663438797" blue="0.45801520347595215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="DIYS">
-                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="lSm-cz-gXy" kind="showDetail" id="8GR-zY-YXV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqE-fF-gp9">
                                 <rect key="frame" x="296" y="798" width="66" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1536,7 +1525,19 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="23"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="8le-Iz-cLL" kind="show" id="IU1-Pg-4rA"/>
+                                    <segue destination="8le-Iz-cLL" kind="presentation" modalPresentationStyle="fullScreen" id="IU1-Pg-4rA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hG-0t-e7L">
+                                <rect key="frame" x="60" y="798" width="78" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.16913914680480957" green="0.430909663438797" blue="0.45801520347595215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="DIYS">
+                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="23"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="lSm-cz-gXy" kind="presentation" modalPresentationStyle="fullScreen" id="8GR-zY-YXV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1554,13 +1555,13 @@ Cg
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qwb-a0-hlB"/>
+        <segue reference="8GR-zY-YXV"/>
         <segue reference="rKO-tj-G8P"/>
-        <segue reference="yYb-96-48n"/>
+        <segue reference="IU1-Pg-4rA"/>
         <segue reference="vqx-0h-y3e"/>
         <segue reference="ufi-lU-QSk"/>
         <segue reference="tI7-ah-G3c"/>
-        <segue reference="RKT-ib-sne"/>
+        <segue reference="Rvg-dw-MJm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Home Page Background" width="1080" height="1920"/>
