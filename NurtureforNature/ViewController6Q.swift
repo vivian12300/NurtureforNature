@@ -1,32 +1,31 @@
 //
-//  ViewController5Q.swift
+//  ViewController6Q.swift
 //  NurtureforNature
 //
-//  Created by Saji Varkey on 6/29/22.
+//  Created by Saji Varkey on 7/1/22.
 //
 
 import UIKit
 
-class ViewController5Q: UIViewController {
-    @IBOutlet weak var answer4: UITextView!
+class ViewController6Q: UIViewController {
+    @IBOutlet weak var answer5: UITextView!
     @IBAction func home(_ sender: UIButton) {
     }
-    @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var label: UILabel!
     @IBAction func aButton(_ sender: UIButton) {
-        answer4.isHidden = false
+        answer5.isHidden = false
     }
     @IBAction func bButton(_ sender: UIButton) {
-        answer4.isHidden = false
+        answer5.isHidden = false
     }
-    @IBAction func cButton(_ sender: UIButton) {
-        answer4.isHidden = false
+    @IBAction func doItYourself(_ sender: UIButton) {
     }
-    @IBAction func next(_ sender: UIButton) {
+    @IBAction func tips(_ sender: UIButton) {
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        answer4.isHidden = true
+        answer5.isHidden = true
 
         // Do any additional setup after loading the view.
     }

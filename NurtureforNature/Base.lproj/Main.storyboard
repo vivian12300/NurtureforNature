@@ -576,7 +576,7 @@ Cg
             <objects>
                 <viewController id="8le-Iz-cLL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KUw-e8-lr6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8o-iC-Mus">
@@ -1024,7 +1024,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="next:" destination="X7e-rE-HO1" eventType="touchUpInside" id="PpQ-E4-03o"/>
+                                    <action selector="next:" destination="X7e-rE-HO1" eventType="touchUpInside" id="GrE-8w-ZDH"/>
                                     <action selector="nextButton:" destination="X7e-rE-HO1" eventType="touchUpInside" id="qrD-bm-QTf"/>
                                     <segue destination="Krc-zs-J71" kind="presentation" modalPresentationStyle="fullScreen" id="KiV-PP-aEj"/>
                                 </connections>
@@ -1041,7 +1041,9 @@ Cg
                     <navigationItem key="navigationItem" id="KpB-p3-Sfe"/>
                     <connections>
                         <outlet property="click" destination="LF9-Qj-FgX" id="a4g-ib-m7P"/>
+                        <outlet property="clickLabel" destination="LF9-Qj-FgX" id="2cn-jc-Hlp"/>
                         <outlet property="greeting" destination="dS5-NB-ZK3" id="0D7-LO-5gD"/>
+                        <outlet property="label" destination="dS5-NB-ZK3" id="tvL-KU-Y2z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3F6-Xd-JCs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1065,7 +1067,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="aButton:" destination="Krc-zs-J71" eventType="touchUpInside" id="aIs-Rf-KXj"/>
+                                    <action selector="aButton:" destination="Krc-zs-J71" eventType="touchUpInside" id="CTh-hP-ROd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKg-eM-M6Y">
@@ -1077,7 +1079,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="bButton:" destination="Krc-zs-J71" eventType="touchUpInside" id="uTo-fg-j9V"/>
+                                    <action selector="bButton:" destination="Krc-zs-J71" eventType="touchUpInside" id="XSr-Tk-xrg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdt-vJ-Xwi">
@@ -1089,7 +1091,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="28"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="next:" destination="Krc-zs-J71" eventType="touchUpInside" id="Bqe-Ij-hsH"/>
+                                    <action selector="next:" destination="Krc-zs-J71" eventType="touchUpInside" id="GBt-du-0bj"/>
                                     <segue destination="IA1-TK-MMw" kind="presentation" modalPresentationStyle="fullScreen" id="9BP-BU-CfT"/>
                                 </connections>
                             </button>
@@ -1107,7 +1109,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="home:" destination="Krc-zs-J71" eventType="touchUpInside" id="p6Z-Mv-tnE"/>
+                                    <action selector="home:" destination="Krc-zs-J71" eventType="touchUpInside" id="CDq-pg-VlX"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="YVa-d3-5wS"/>
                                 </connections>
                             </button>
@@ -1137,7 +1139,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="cButton:" destination="Krc-zs-J71" eventType="touchUpInside" id="JfH-P7-krG"/>
+                                    <action selector="cButton:" destination="Krc-zs-J71" eventType="touchUpInside" id="mbz-eO-guA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1146,8 +1148,8 @@ Cg
                     </view>
                     <navigationItem key="navigationItem" id="Upn-8F-Mh3"/>
                     <connections>
-                        <outlet property="answer1" destination="7pP-4I-WVp" id="xp0-02-Ky9"/>
-                        <outlet property="textView" destination="RIO-Yd-pkN" id="vdd-je-hes"/>
+                        <outlet property="answer1" destination="7pP-4I-WVp" id="Jgl-F7-ykw"/>
+                        <outlet property="textView" destination="RIO-Yd-pkN" id="Xqv-cP-LWE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="46T-aJ-rxg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1171,7 +1173,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="21"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="aButton:" destination="IA1-TK-MMw" eventType="touchUpInside" id="ocR-Gd-XLA"/>
+                                    <action selector="aButton:" destination="IA1-TK-MMw" eventType="touchUpInside" id="VgQ-0f-XRh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccE-ns-df7">
@@ -1183,7 +1185,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="21"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="bButton:" destination="IA1-TK-MMw" eventType="touchUpInside" id="JUn-QC-amF"/>
+                                    <action selector="bButton:" destination="IA1-TK-MMw" eventType="touchUpInside" id="ZjF-fH-cdU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qjz-Ko-8XN">
@@ -1195,7 +1197,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="21"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="cButton:" destination="IA1-TK-MMw" eventType="touchUpInside" id="HEo-0X-jIw"/>
+                                    <action selector="cButton:" destination="IA1-TK-MMw" eventType="touchUpInside" id="JpP-a7-u4D"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5p-H0-ggb">
@@ -1207,7 +1209,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="next:" destination="IA1-TK-MMw" eventType="touchUpInside" id="HO6-a0-7ZY"/>
+                                    <action selector="next:" destination="IA1-TK-MMw" eventType="touchUpInside" id="f2L-0Z-lU3"/>
                                     <segue destination="qs9-fe-g3C" kind="presentation" modalPresentationStyle="fullScreen" id="0hY-5Q-aDC"/>
                                 </connections>
                             </button>
@@ -1225,18 +1227,10 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="home:" destination="IA1-TK-MMw" eventType="touchUpInside" id="m1O-wz-e59"/>
+                                    <action selector="home:" destination="IA1-TK-MMw" eventType="touchUpInside" id="SOg-8W-NLK"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="eLa-MS-W8Q"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Which greenhouse gas is the main driver of Earth’s current warming?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ied-hr-UO8">
-                                <rect key="frame" x="52" y="95" width="331" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95639413595199585" green="0.9353519082069397" blue="0.83393234014511108" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="textColor" red="0.16913914680480957" green="0.430909663438797" blue="0.45801520347595215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="21"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gMD-cd-2ql">
                                 <rect key="frame" x="41" y="504" width="342" height="229"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1246,14 +1240,22 @@ Cg
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Which greenhouse gas is the main driver of Earth’s current warming?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ied-hr-UO8">
+                                <rect key="frame" x="83" y="104" width="331" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95639413595199585" green="0.9353519082069397" blue="0.83393234014511108" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.16913914680480957" green="0.430909663438797" blue="0.45801520347595215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fnl-Mn-23M"/>
                         <color key="backgroundColor" red="0.95639413595199585" green="0.9353519082069397" blue="0.83393234014511108" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="3ZS-Zl-4t2"/>
                     <connections>
-                        <outlet property="answer2" destination="gMD-cd-2ql" id="C5r-kT-amq"/>
-                        <outlet property="textView" destination="Ied-hr-UO8" id="gUE-U2-rhz"/>
+                        <outlet property="answer2" destination="gMD-cd-2ql" id="WFE-90-XtP"/>
+                        <outlet property="textView" destination="Ied-hr-UO8" id="JqX-3M-LWn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CIi-ZG-xvz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1277,7 +1279,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="aButton:" destination="qs9-fe-g3C" eventType="touchUpInside" id="Ddg-Ef-W4k"/>
+                                    <action selector="aButton:" destination="qs9-fe-g3C" eventType="touchUpInside" id="5ZY-nM-hl9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecb-oG-ctY">
@@ -1289,7 +1291,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="bButton:" destination="qs9-fe-g3C" eventType="touchUpInside" id="oKG-ez-OBp"/>
+                                    <action selector="bButton:" destination="qs9-fe-g3C" eventType="touchUpInside" id="WZd-1v-A6u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPU-0l-8fF">
@@ -1301,7 +1303,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="21"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="cButton:" destination="qs9-fe-g3C" eventType="touchUpInside" id="oDk-wH-bam"/>
+                                    <action selector="cButton:" destination="qs9-fe-g3C" eventType="touchUpInside" id="a1j-4A-Etz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tf4-d3-oPw">
@@ -1313,7 +1315,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="next:" destination="qs9-fe-g3C" eventType="touchUpInside" id="kZR-IK-VOR"/>
+                                    <action selector="next:" destination="qs9-fe-g3C" eventType="touchUpInside" id="AYf-K7-HFl"/>
                                     <segue destination="Tga-jj-OT1" kind="presentation" modalPresentationStyle="fullScreen" id="RCh-kk-XtD"/>
                                 </connections>
                             </button>
@@ -1331,7 +1333,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="home:" destination="qs9-fe-g3C" eventType="touchUpInside" id="y8C-xI-TvY"/>
+                                    <action selector="home:" destination="qs9-fe-g3C" eventType="touchUpInside" id="COc-K5-pAZ"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="IrU-bW-H9R"/>
                                 </connections>
                             </button>
@@ -1358,7 +1360,8 @@ Cg
                     </view>
                     <navigationItem key="navigationItem" id="LoB-TH-sqc"/>
                     <connections>
-                        <outlet property="answer3" destination="XAr-rq-knn" id="ctf-H9-2aj"/>
+                        <outlet property="answer3" destination="XAr-rq-knn" id="ydh-Fq-CK7"/>
+                        <outlet property="question" destination="FY5-za-1z1" id="4Bd-97-gFb"/>
                         <outlet property="textView" destination="FY5-za-1z1" id="tqE-Lm-p1Q"/>
                     </connections>
                 </viewController>
@@ -1383,7 +1386,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="21"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="aButton:" destination="Tga-jj-OT1" eventType="touchUpInside" id="BrX-ct-zgL"/>
+                                    <action selector="aButton:" destination="Tga-jj-OT1" eventType="touchUpInside" id="rt0-Db-r6n"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pU2-yc-iaS">
@@ -1395,7 +1398,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="21"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="bButton:" destination="Tga-jj-OT1" eventType="touchUpInside" id="tJq-dY-2WM"/>
+                                    <action selector="bButton:" destination="Tga-jj-OT1" eventType="touchUpInside" id="HAt-3q-sX4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30V-xe-BVK">
@@ -1407,7 +1410,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="next:" destination="Tga-jj-OT1" eventType="touchUpInside" id="9oI-Px-L7e"/>
+                                    <action selector="next:" destination="Tga-jj-OT1" eventType="touchUpInside" id="Ti4-wb-1GG"/>
                                     <segue destination="itz-46-rCe" kind="presentation" modalPresentationStyle="fullScreen" id="9ZM-7D-lwR"/>
                                 </connections>
                             </button>
@@ -1425,7 +1428,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="home:" destination="Tga-jj-OT1" eventType="touchUpInside" id="76Q-pY-Rp9"/>
+                                    <action selector="home:" destination="Tga-jj-OT1" eventType="touchUpInside" id="Fr7-Up-N56"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="eft-Nl-8Y9"/>
                                 </connections>
                             </button>
@@ -1438,7 +1441,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="21"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="cButton:" destination="Tga-jj-OT1" eventType="touchUpInside" id="cDP-nz-Xle"/>
+                                    <action selector="cButton:" destination="Tga-jj-OT1" eventType="touchUpInside" id="OPO-aq-mzi"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text=" The likelihood of which extreme weather event is expected to increase with climate change?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Zhz-kq-UWg">
@@ -1464,7 +1467,8 @@ Cg
                     </view>
                     <navigationItem key="navigationItem" id="kDI-3N-RBc"/>
                     <connections>
-                        <outlet property="answer4" destination="VAn-Z9-llu" id="eWI-Bs-wKK"/>
+                        <outlet property="answer4" destination="VAn-Z9-llu" id="w4z-eK-nbU"/>
+                        <outlet property="textView" destination="Zhz-kq-UWg" id="Uxf-cY-pzQ"/>
                         <outlet property="textview" destination="Zhz-kq-UWg" id="sUh-24-MSZ"/>
                     </connections>
                 </viewController>
@@ -1490,7 +1494,7 @@ Cg
                                     <color key="baseForegroundColor" red="0.2274509804" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="home:" destination="itz-46-rCe" eventType="touchUpInside" id="iMM-dB-tyG"/>
+                                    <action selector="home:" destination="itz-46-rCe" eventType="touchUpInside" id="zSh-ZM-wLD"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="RKT-ib-sne"/>
                                 </connections>
                             </button>
@@ -1510,7 +1514,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="21"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="aButton:" destination="itz-46-rCe" eventType="touchUpInside" id="CXk-h0-M1B"/>
+                                    <action selector="aButton:" destination="itz-46-rCe" eventType="touchUpInside" id="SKZ-5n-muq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8v-lU-nDY">
@@ -1522,7 +1526,7 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="21"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="bButton:" destination="itz-46-rCe" eventType="touchUpInside" id="KpC-fZ-tx6"/>
+                                    <action selector="bButton:" destination="itz-46-rCe" eventType="touchUpInside" id="cmU-Ws-tD6"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8mQ-nf-hgS">
@@ -1534,14 +1538,40 @@ Cg
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hG-0t-e7L">
+                                <rect key="frame" x="65" y="800" width="69" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.16913914680480957" green="0.430909663438797" blue="0.45801520347595215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="DIYS">
+                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="doItYourself:" destination="itz-46-rCe" eventType="touchUpInside" id="ghh-UK-Lac"/>
+                                    <segue destination="lSm-cz-gXy" kind="showDetail" id="8GR-zY-YXV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqE-fF-gp9">
+                                <rect key="frame" x="296" y="798" width="66" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.16913914680480957" green="0.430909663438797" blue="0.45801520347595215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Tips">
+                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="23"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tips:" destination="itz-46-rCe" eventType="touchUpInside" id="Wa0-CJ-YL9"/>
+                                    <segue destination="8le-Iz-cLL" kind="show" id="IU1-Pg-4rA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0jJ-JD-wD4"/>
                         <color key="backgroundColor" red="0.95639413595199585" green="0.9353519082069397" blue="0.83393234014511108" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="2EZ-FW-AVc"/>
                     <connections>
-                        <outlet property="answer5" destination="8mQ-nf-hgS" id="ey0-Vc-y6J"/>
-                        <outlet property="label" destination="tdt-OG-e6a" id="LRD-zw-A20"/>
+                        <outlet property="answer5" destination="8mQ-nf-hgS" id="NJM-lW-jEh"/>
+                        <outlet property="label" destination="tdt-OG-e6a" id="s2z-gj-DxL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VEQ-IO-cpY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1550,13 +1580,13 @@ Cg
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qwb-a0-hlB"/>
+        <segue reference="8GR-zY-YXV"/>
         <segue reference="rKO-tj-G8P"/>
-        <segue reference="yYb-96-48n"/>
+        <segue reference="IU1-Pg-4rA"/>
         <segue reference="vqx-0h-y3e"/>
         <segue reference="ufi-lU-QSk"/>
         <segue reference="tI7-ah-G3c"/>
-        <segue reference="RKT-ib-sne"/>
+        <segue reference="YVa-d3-5wS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Home Page Background" width="1080" height="1920"/>

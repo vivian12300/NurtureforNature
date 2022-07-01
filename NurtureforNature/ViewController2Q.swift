@@ -8,10 +8,25 @@
 import UIKit
 
 class ViewController2Q: UIViewController {
-
+    @IBOutlet weak var answer1: UITextView!
+    @IBOutlet weak var textView: UITextView!
+    @IBAction func aButton(_ sender: UIButton) {
+        answer1.isHidden = false
+    }
+    @IBAction func bButton(_ sender: UIButton) {
+        answer1.isHidden = false
+    }
+    @IBAction func cButton(_ sender: UIButton) {
+        answer1.isHidden = false
+    }
+    @IBAction func home(_ sender: UIButton) {
+    }
+    @IBAction func next(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        answer1.isHidden = true
         // Do any additional setup after loading the view.
     }
     

@@ -24,6 +24,7 @@
 		7073B0CD286D24250060C6AB /* ViewController3Q.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073B0CC286D24250060C6AB /* ViewController3Q.swift */; };
 		7073B0CF286D24410060C6AB /* ViewController4Q.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073B0CE286D24410060C6AB /* ViewController4Q.swift */; };
 		7073B0D1286D28DB0060C6AB /* ViewController5Q.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073B0D0286D28DB0060C6AB /* ViewController5Q.swift */; };
+		7073B0D7286F4FFF0060C6AB /* ViewController6Q.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073B0D6286F4FFF0060C6AB /* ViewController6Q.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		7073B0CC286D24250060C6AB /* ViewController3Q.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3Q.swift; sourceTree = "<group>"; };
 		7073B0CE286D24410060C6AB /* ViewController4Q.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4Q.swift; sourceTree = "<group>"; };
 		7073B0D0286D28DB0060C6AB /* ViewController5Q.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5Q.swift; sourceTree = "<group>"; };
+		7073B0D6286F4FFF0060C6AB /* ViewController6Q.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6Q.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				7073B0CA286D21750060C6AB /* ViewController2Q.swift */,
 				7073B0CC286D24250060C6AB /* ViewController3Q.swift */,
 				7073B0CE286D24410060C6AB /* ViewController4Q.swift */,
+				7073B0D6286F4FFF0060C6AB /* ViewController6Q.swift */,
 			);
 			path = NurtureforNature;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				43AA8B0F286B8BD6002E2504 /* AppDelegate.swift in Sources */,
 				6CE33603286E21C2007D4462 /* DIYcompostViewController.swift in Sources */,
 				43AA8B11286B8BD6002E2504 /* SceneDelegate.swift in Sources */,
+				7073B0D7286F4FFF0060C6AB /* ViewController6Q.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
