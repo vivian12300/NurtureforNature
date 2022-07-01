@@ -33,18 +33,6 @@
                                     <segue destination="8le-Iz-cLL" kind="presentation" modalPresentationStyle="fullScreen" id="yYb-96-48n"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yMr-ca-tjK">
-                                <rect key="frame" x="301" y="197" width="93" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.2274509804" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Quiz">
-                                    <fontDescription key="titleFontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="35"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="X7e-rE-HO1" kind="presentation" modalPresentationStyle="fullScreen" id="wsO-KW-6sO"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vO-WE-Qxy">
                                 <rect key="frame" x="20" y="197" width="81" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -67,6 +55,17 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="lSm-cz-gXy" kind="presentation" modalPresentationStyle="fullScreen" id="qwb-a0-hlB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ew-DE-TVa">
+                                <rect key="frame" x="310" y="219" width="67" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <fontDescription key="titleFontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="X7e-rE-HO1" kind="show" id="Aec-zr-7C6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -576,7 +575,7 @@ Cg
             <objects>
                 <viewController id="8le-Iz-cLL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KUw-e8-lr6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8o-iC-Mus">
@@ -1024,8 +1023,6 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="next:" destination="X7e-rE-HO1" eventType="touchUpInside" id="GrE-8w-ZDH"/>
-                                    <action selector="nextButton:" destination="X7e-rE-HO1" eventType="touchUpInside" id="qrD-bm-QTf"/>
                                     <segue destination="Krc-zs-J71" kind="presentation" modalPresentationStyle="fullScreen" id="KiV-PP-aEj"/>
                                 </connections>
                             </button>
@@ -1039,16 +1036,10 @@ Cg
                         <color key="backgroundColor" red="0.95639413595199585" green="0.9353519082069397" blue="0.83393234014511108" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="KpB-p3-Sfe"/>
-                    <connections>
-                        <outlet property="click" destination="LF9-Qj-FgX" id="a4g-ib-m7P"/>
-                        <outlet property="clickLabel" destination="LF9-Qj-FgX" id="2cn-jc-Hlp"/>
-                        <outlet property="greeting" destination="dS5-NB-ZK3" id="0D7-LO-5gD"/>
-                        <outlet property="label" destination="dS5-NB-ZK3" id="tvL-KU-Y2z"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3F6-Xd-JCs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2778" y="84"/>
+            <point key="canvasLocation" x="7" y="-642"/>
         </scene>
         <!--View Controller2Q-->
         <scene sceneID="0XB-xD-Hev">
@@ -1091,7 +1082,6 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="28"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="next:" destination="Krc-zs-J71" eventType="touchUpInside" id="GBt-du-0bj"/>
                                     <segue destination="IA1-TK-MMw" kind="presentation" modalPresentationStyle="fullScreen" id="9BP-BU-CfT"/>
                                 </connections>
                             </button>
@@ -1109,7 +1099,6 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="home:" destination="Krc-zs-J71" eventType="touchUpInside" id="CDq-pg-VlX"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="YVa-d3-5wS"/>
                                 </connections>
                             </button>
@@ -1209,7 +1198,6 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="next:" destination="IA1-TK-MMw" eventType="touchUpInside" id="f2L-0Z-lU3"/>
                                     <segue destination="qs9-fe-g3C" kind="presentation" modalPresentationStyle="fullScreen" id="0hY-5Q-aDC"/>
                                 </connections>
                             </button>
@@ -1227,7 +1215,6 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="home:" destination="IA1-TK-MMw" eventType="touchUpInside" id="SOg-8W-NLK"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="eLa-MS-W8Q"/>
                                 </connections>
                             </button>
@@ -1255,7 +1242,6 @@ Cg
                     <navigationItem key="navigationItem" id="3ZS-Zl-4t2"/>
                     <connections>
                         <outlet property="answer2" destination="gMD-cd-2ql" id="WFE-90-XtP"/>
-                        <outlet property="textView" destination="Ied-hr-UO8" id="JqX-3M-LWn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CIi-ZG-xvz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1315,7 +1301,6 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="next:" destination="qs9-fe-g3C" eventType="touchUpInside" id="AYf-K7-HFl"/>
                                     <segue destination="Tga-jj-OT1" kind="presentation" modalPresentationStyle="fullScreen" id="RCh-kk-XtD"/>
                                 </connections>
                             </button>
@@ -1333,7 +1318,6 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="home:" destination="qs9-fe-g3C" eventType="touchUpInside" id="COc-K5-pAZ"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="IrU-bW-H9R"/>
                                 </connections>
                             </button>
@@ -1361,8 +1345,6 @@ Cg
                     <navigationItem key="navigationItem" id="LoB-TH-sqc"/>
                     <connections>
                         <outlet property="answer3" destination="XAr-rq-knn" id="ydh-Fq-CK7"/>
-                        <outlet property="question" destination="FY5-za-1z1" id="4Bd-97-gFb"/>
-                        <outlet property="textView" destination="FY5-za-1z1" id="tqE-Lm-p1Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PXw-iB-pzE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1410,7 +1392,6 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="next:" destination="Tga-jj-OT1" eventType="touchUpInside" id="Ti4-wb-1GG"/>
                                     <segue destination="itz-46-rCe" kind="presentation" modalPresentationStyle="fullScreen" id="9ZM-7D-lwR"/>
                                 </connections>
                             </button>
@@ -1428,7 +1409,6 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="home:" destination="Tga-jj-OT1" eventType="touchUpInside" id="Fr7-Up-N56"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="eft-Nl-8Y9"/>
                                 </connections>
                             </button>
@@ -1468,8 +1448,6 @@ Cg
                     <navigationItem key="navigationItem" id="kDI-3N-RBc"/>
                     <connections>
                         <outlet property="answer4" destination="VAn-Z9-llu" id="w4z-eK-nbU"/>
-                        <outlet property="textView" destination="Zhz-kq-UWg" id="Uxf-cY-pzQ"/>
-                        <outlet property="textview" destination="Zhz-kq-UWg" id="sUh-24-MSZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w5V-gR-FlI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1494,7 +1472,6 @@ Cg
                                     <color key="baseForegroundColor" red="0.2274509804" green="0.38823529410000002" blue="0.31764705879999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="home:" destination="itz-46-rCe" eventType="touchUpInside" id="zSh-ZM-wLD"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="RKT-ib-sne"/>
                                 </connections>
                             </button>
@@ -1547,7 +1524,6 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="doItYourself:" destination="itz-46-rCe" eventType="touchUpInside" id="ghh-UK-Lac"/>
                                     <segue destination="lSm-cz-gXy" kind="showDetail" id="8GR-zY-YXV"/>
                                 </connections>
                             </button>
@@ -1560,7 +1536,6 @@ Cg
                                     <fontDescription key="titleFontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="23"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="tips:" destination="itz-46-rCe" eventType="touchUpInside" id="Wa0-CJ-YL9"/>
                                     <segue destination="8le-Iz-cLL" kind="show" id="IU1-Pg-4rA"/>
                                 </connections>
                             </button>
@@ -1571,7 +1546,6 @@ Cg
                     <navigationItem key="navigationItem" id="2EZ-FW-AVc"/>
                     <connections>
                         <outlet property="answer5" destination="8mQ-nf-hgS" id="NJM-lW-jEh"/>
-                        <outlet property="label" destination="tdt-OG-e6a" id="s2z-gj-DxL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VEQ-IO-cpY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1580,13 +1554,13 @@ Cg
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8GR-zY-YXV"/>
+        <segue reference="qwb-a0-hlB"/>
         <segue reference="rKO-tj-G8P"/>
-        <segue reference="IU1-Pg-4rA"/>
+        <segue reference="yYb-96-48n"/>
         <segue reference="vqx-0h-y3e"/>
         <segue reference="ufi-lU-QSk"/>
         <segue reference="tI7-ah-G3c"/>
-        <segue reference="YVa-d3-5wS"/>
+        <segue reference="RKT-ib-sne"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Home Page Background" width="1080" height="1920"/>

@@ -8,10 +8,8 @@
 import UIKit
 
 class ViewController1Q: UIViewController {
-    @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var clickLabel: UILabel!
-    @IBAction func next(_ sender: UIButton) {
-    }
+
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
